@@ -89,3 +89,5 @@ import { ComponentProps, ElementType } from 'react'
  })
  
  export interface ButtonProps extends ComponentProps<typeof Button> {}
+
+ Button.displayName = 'Button'

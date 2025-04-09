@@ -8,6 +8,13 @@ export default {
         src: 'https://github.com/GuiTeFreire.png',
         alt: 'Guilherme Freire',
     },
+    argTypes: {
+        src: {
+            control: {
+                type: 'text',
+            },
+        }
+    }
 } as Meta<AvatarProps>
 
 export const Primary: StoryObj<AvatarProps> = {}
